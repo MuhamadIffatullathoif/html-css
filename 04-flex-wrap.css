@@ -1,0 +1,33 @@
+/* Flex contianer => Parent */
+ul {
+  background-color: lightslategray;
+  padding: 20px;
+
+  /* Flex container properties */
+  display: flex;
+
+  /* Flex Wrap */
+  /* 2.1 */
+  /* nowrap */
+  /* flex-wrap: nowrap; */
+
+  /* 2.2 */
+  /* wrap */
+  /* flex-wrap: wrap; */
+
+  /* 2.3 */
+  /* wrap-reverse */
+  flex-wrap: wrap-reverse;
+
+}
+
+/* Flex item => Children */
+li {
+  list-style: none;
+  color: white;
+  background-color: #20b2aa;
+  padding: 10px;
+  margin: 20px;
+  width: 100px;
+  text-align: center;
+}
