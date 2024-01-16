@@ -1,0 +1,46 @@
+/* Flex contianer => Parent */
+ul {
+  background-color: lightslategray;
+  padding: 20px;
+
+  /* Flex container properties */
+  display: flex;
+
+  /* Justify Content */
+  /* Default Direction => Row => Main Axis => Horizontal */
+
+  /* 4.1 */
+  /* Flex start (default) */
+  /* justify-content: flex-start; */
+
+  /* 4.2 */
+  /* Flex end */
+  /* justify-content: flex-end; */
+
+  /* 4.3 */
+  /* Center */
+  /* justify-content: center; */
+
+  /* 4.4 */
+  /* Space Beetween */
+  justify-content: space-between;
+
+  /* 4.5 */
+  /* Space around */
+  /* justify-content: space-around; */
+
+  /* 4.6 */
+  /* space evenly */
+  /* justify-content: space-evenly; */
+}
+
+/* Flex item => Children */
+li {
+  list-style: none;
+  color: white;
+  background-color: #20b2aa;
+  padding: 10px;
+  margin: 20px;
+  width: 100px;
+  text-align: center;
+}
