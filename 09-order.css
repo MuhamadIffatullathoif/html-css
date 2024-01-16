@@ -1,0 +1,36 @@
+/* Flex contianer => Parent */
+ul {
+  background-color: lightslategray;
+  padding: 20px;
+  height: 600px; /* comment out for align items: stretch to be visualized */
+
+  /* Flex container properties */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Flex item => Children */
+li {
+  list-style: none;
+  color: white;
+  background-color: #20b2aa;
+  padding: 10px;
+  margin: 20px;
+  width: 100px;
+  text-align: center;
+  /* height: 100px; */ /* comment out for (align-items: stretch;) for visualize */
+}
+
+/* Order default value 0 */
+li:nth-child(2) {
+  order: 1;
+}
+
+/* Order negative value */
+li:nth-child(5) {
+  order: -1;
+}
+
+li:nth-child(4) {
+  order: -2;
+}
