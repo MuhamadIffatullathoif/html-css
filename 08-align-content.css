@@ -1,0 +1,51 @@
+/* Flex contianer => Parent */
+ul {
+  background-color: lightslategray;
+  padding: 20px;
+  height: 600px; /* comment out for align items: stretch to be visualized */
+
+  /* Flex container properties */
+  display: flex;
+  flex-wrap: wrap;
+
+  /* Align Content for Multi line flex item */
+  /* 6.1 */
+  /* Stretch (default) */
+  /* align-content: stretch; */
+
+  /* 6.2 */
+  /* Flex Start */
+  /* align-content: flex-start; */
+
+  /* 6.3 */
+  /* Flex End */
+  /* align-content: flex-end; */
+
+  /* 6.4 */
+  /* Space Between */
+  /* align-content: space-between; */
+
+  /* 6.5 */
+  /* Space Around */
+  /* align-content: space-around; */
+
+  /* 6.6 */
+  /* Space Evenly */
+  /* align-content: space-evenly; */
+
+  /* 6.7 */
+  /* Center */
+  /* align-content: center; */
+}
+
+/* Flex item => Children */
+li {
+  list-style: none;
+  color: white;
+  background-color: #20b2aa;
+  padding: 10px;
+  margin: 20px;
+  width: 100px;
+  text-align: center;
+  /* height: 100px; */ /* comment out for (align-items: stretch;) for visualize */
+}
