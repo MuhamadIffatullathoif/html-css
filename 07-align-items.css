@@ -1,0 +1,48 @@
+/* Flex contianer => Parent */
+ul {
+  background-color: lightslategray;
+  padding: 20px;
+  height: 300px; /* comment out for align items: stretch to be visualized */
+
+  /* Flex container properties */
+  display: flex;
+
+  /* Align Items */
+  /* Default Direction row => Cross Axis => Vertical */
+
+  /* 5.1 */
+  /* Strecth (default) */
+  /* align-items: stretch; */
+
+  /* 5.2 */
+  /* Flex Start */
+  /* align-items: flex-start; */
+
+  /* 5.3 */
+  /* Flex end */
+  /* align-items: flex-end; */
+
+  /* 5.4 */
+  /* center */
+  /* align-items: center; */
+
+  /* 5.5 */
+  /* Baseline */
+  align-items: baseline;
+}
+
+/* Flex item => Children */
+li {
+  list-style: none;
+  color: white;
+  background-color: #20b2aa;
+  padding: 10px;
+  margin: 0 20px;
+  width: 100px;
+  text-align: center;
+  /* height: 100px; */ /* comment out for (align-items: stretch;) for visualize */
+}
+
+li:first-child {
+  padding: 1px;
+}
