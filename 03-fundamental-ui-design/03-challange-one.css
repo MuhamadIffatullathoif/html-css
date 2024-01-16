@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(255, 255, 222);
+  height: 100vh;
+
+  /* Initiating the Flexbox Model */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Shared styles for sections */
+.section {
+  width: 400px;
+  background-color: rgb(166, 248, 159);
+}
+
+/* images */
+img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.empty {
+  height: 100px;
+  background-color: lightgray;
+}
+
+/* Date */
+.section .content p:first-of-type{
+  text-align: center;
+}
+
+/* Headline */
+.section .content h3 {
+  text-align: right;
+}
+
+/* Improvement */
+.section {
+  margin: 0 15px 0;
+}
+
+.section .content h3,
+.section .content p:first-of-type,
+.section .content p:last-of-type {
+  text-align: left;
+  margin-top: 15px;
+  margin-left: 25px;
+}
+
+.section .content p:last-of-type{
+  margin-bottom: 20px;
+  margin-right: 20px;
+  line-height: 1.6;
+}
