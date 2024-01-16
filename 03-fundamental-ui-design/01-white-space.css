@@ -28,14 +28,20 @@ body {
   padding: 35px;
 }
 
+.football,
+.golf,
 .basketball {
   padding: 27px;
 }
 
+.football h2,
+.golf h2,
 .basketball h2 {
   margin-bottom: 10px;
 }
 
+.football p,
+.golf p,
 .basketball p {
   line-height: 1.6;
 }
