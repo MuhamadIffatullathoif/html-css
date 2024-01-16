@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(61, 70, 78);
+}
+
+/* Shared styles for sections */
+.section {
+  background-color: rgb(7, 55, 119);
+  display: flex;
+}
+
+/* img */
+img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Improvements */
+#main-content {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section {
+  width: 70%;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: rgb(131, 167, 214);
+  border-radius: 10px;
+  transition: transform 0.35s ease-in-out;
+}
+
+.section:hover {
+  transform: scale(1.05);
+}
+
+.content {
+  display: flex;
+  width: 70%;  
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+p:not(:first-of-type) {
+  font-size: 20px;
+}
+
+.section .content h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
